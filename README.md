@@ -1,2 +1,0 @@
-# SlateSubtitleEditor
-Created with CodeSandbox

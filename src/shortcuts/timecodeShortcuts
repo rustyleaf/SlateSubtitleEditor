@@ -1,0 +1,11 @@
+export const f1 = (opts) => {
+
+  const { value } = editor;
+  const { document, startBlock } = value;
+  const parentBlock = document.getParent(startBlock.key);
+  const d = {
+    timecode: this.props.timecode(),
+    lineLengthLimit: 50
+  };
+  editor.setNodeByKey(parentBlock.key, { data: d });
+}
